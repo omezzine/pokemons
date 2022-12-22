@@ -1,0 +1,16 @@
+.card {
+    display: flex;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 22%;
+    margin-bottom: 20px;
+    flex-direction: column;
+    .card-name {
+        font-weight: bold;
+        text-align: center;
+    }
+    img {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+    }
+}

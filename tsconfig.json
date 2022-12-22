@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "paths": {
+      "@common/*": ["src/common/*"],
+      "@client/*": ["src/client/*"],
+      "@config/*": ["src/server/config/*"]
+    }
+  },
+  "ts-node": {
+    "files": true
+  },
+  "include": ["src/common", "src/server", "test", "ormconfig.ts", "jest.config.ts"],
+}
