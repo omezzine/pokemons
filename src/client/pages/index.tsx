@@ -4,8 +4,10 @@ import { PokemonCard } from '@components/pokemon-card';
 import { Pagination } from '@components/pagination';
 import { Spinner } from '@components/spinner';
 import { usePokemons } from '@hooks/usePokemons';
+import useTitle from '@hooks/useTitle';
 
 const Home: NextPage = () => {
+  useTitle('Pokemons');
   const { data, isLoading, setOffset } = usePokemons({
     offset: 0,
     limit: 16,
