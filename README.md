@@ -12,10 +12,10 @@ this is a boilerplate for using nestJs & nextJs together
 ## TODO
 - Define the Ubiquitous Language
 - write the onboarding doc & the technical doc
-- Add swagger configuration
-- Add commit hooks & changelog
 - Story book
+- Add swagger configuration
 - Add standards / interfaces for API Response
+- Add commit hooks & changelog
 - Improve the Error handling from server & client sides
 - make the common folder as en external module with his own package.json
 - Define the log strategy
