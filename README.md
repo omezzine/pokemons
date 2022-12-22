@@ -3,11 +3,11 @@
 this is a boilerplate for using nestJs & nextJs together
 
 ## Getting Started
- - install deps: run cmd ```sh npm install ```
- - start server: run cmd ```sh npm start ```
+ - install deps: run cmd ``` npm install ```
+ - start server: run cmd ``` npm start ```
 
- - run server tests: run cmd ```sh npm test:server:watch ```
- - run client tests: run cmd ```sh npm test:client:watch ```
+ - run server tests: run cmd ``` npm test:server:watch ```
+ - run client tests: run cmd ``` npm test:client:watch ```
 
 ## TODO
 - Define the Ubiquitous Language
